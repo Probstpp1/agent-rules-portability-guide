@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.0",
+  "profile": 12,
+  "repository": "agent-rules-portability-guide",
+  "reviewed_on": "2026-11-21",
+  "comparison_axes": [
+    "Agent/tool",
+    "Instruction mechanism",
+    "Scope model",
+    "Put here",
+    "Verify"
+  ],
+  "entries": [
+    {
+      "name": "OpenAI Codex",
+      "role_or_focus": "AGENTS.md",
+      "url": "https://raw.githubusercontent.com/openai/codex/main/codex-rs/core/src/agents_md.rs",
+      "supported_claim": "Hierarchical repository instruction files discovered by Codex.",
+      "best_use": "Durable repository commands and scoped directory rules.",
+      "important_boundary": "Discovery order and override behavior in the installed Codex version.",
+      "claim_status": {
+        "supported_claim": "source-backed",
+        "best_use": "author-recommendation",
+        "important_boundary": "author-analysis"
+      }
+    },
+    {
+      "name": "GitHub Copilot",
+      "role_or_focus": "repository custom instructions",
+      "url": "https://docs.github.com/en/copilot/customizing-copilot/adding-repository-custom-instructions-for-github-copilot",
+      "supported_claim": "Repository-wide and path-specific instruction mechanisms documented by GitHub.",
+      "best_use": "Build/test conventions and path-targeted guidance.",
+      "important_boundary": "Which Copilot surface consumes each instruction type.",
+      "claim_status": {
+        "supported_claim": "source-backed",
+        "best_use": "author-recommendation",
+        "important_boundary": "author-analysis"
+      }
+    },
+    {
+      "name": "Claude Code",
+      "role_or_focus": "CLAUDE.md memory",
+      "url": "https://docs.anthropic.com/en/docs/claude-code/memory",
+      "supported_claim": "Hierarchical memory/instruction files and imports documented by Anthropic.",
+      "best_use": "Project facts and directory-level conventions.",
+      "important_boundary": "Import availability, scope, and precedence for the current release.",
+      "claim_status": {
+        "supported_claim": "source-backed",
+        "best_use": "author-recommendation",
+        "important_boundary": "author-analysis"
+      }
+    },
+    {
+      "name": "Cursor",
+      "role_or_focus": "project rules",
+      "url": "https://docs.cursor.com/en/context/rules",
+      "supported_claim": "Project rules stored in the repository with rule metadata.",
+      "best_use": "Tool-specific adapters or scoped patterns.",
+      "important_boundary": "Legacy rule migration and rule activation conditions.",
+      "claim_status": {
+        "supported_claim": "source-backed",
+        "best_use": "author-recommendation",
+        "important_boundary": "author-analysis"
+      }
+    },
+    {
+      "name": "Windsurf",
+      "role_or_focus": "Memories and Rules",
+      "url": "https://docs.windsurf.com/windsurf/cascade/memories",
+      "supported_claim": "Workspace rules and memory behavior documented by Windsurf.",
+      "best_use": "Stable workspace conventions in the supported rule format.",
+      "important_boundary": "Local/global memory interactions and size limits.",
+      "claim_status": {
+        "supported_claim": "source-backed",
+        "best_use": "author-recommendation",
+        "important_boundary": "author-analysis"
+      }
+    },
+    {
+      "name": "Aider",
+      "role_or_focus": "conventions file",
+      "url": "https://aider.chat/docs/usage/conventions.html",
+      "supported_claim": "A configured text file is added to the coding context as conventions.",
+      "best_use": "A concise adapter generated from canonical project rules.",
+      "important_boundary": "Context cost and whether instructions are actually followed.",
+      "claim_status": {
+        "supported_claim": "source-backed",
+        "best_use": "author-recommendation",
+        "important_boundary": "author-analysis"
+      }
+    },
+    {
+      "name": "Continue",
+      "role_or_focus": "rules",
+      "url": "https://docs.continue.dev/customize/rules",
+      "supported_claim": "Rules customize agent/chat behavior in Continue.",
+      "best_use": "Workspace-specific constraints and workflow guidance.",
+      "important_boundary": "Rule format and applicability in the installed Continue version.",
+      "claim_status": {
+        "supported_claim": "source-backed",
+        "best_use": "author-recommendation",
+        "important_boundary": "author-analysis"
+      }
+    },
+    {
+      "name": "Cline",
+      "role_or_focus": "rules",
+      "url": "https://docs.cline.bot/features/cline-rules",
+      "supported_claim": "Repository and user rules documented for Cline.",
+      "best_use": "Cline-specific workflow adapters.",
+      "important_boundary": "Precedence and behavior across Cline modes/releases.",
+      "claim_status": {
+        "supported_claim": "source-backed",
+        "best_use": "author-recommendation",
+        "important_boundary": "author-analysis"
+      }
+    }
+  ],
+  "field_provenance": {
+    "supported_claim": "source-backed at the cited URL, subject to the recorded review date/version",
+    "best_use": "author recommendation; requires local validation",
+    "important_boundary": "author analysis unless the linked source explicitly states it"
+  }
+}

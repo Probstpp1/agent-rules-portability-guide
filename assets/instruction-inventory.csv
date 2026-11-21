@@ -1,0 +1,5 @@
+rule_id,category,canonical_scope,canonical_rule,evidence,safety_boundary,codex,copilot,claude_code,cursor,windsurf,aider,continue,cline,fixture_result,review_owner
+build-command,durable-fact,repository,Use the documented local build command,project manifest,No network or credentials,adapt,adapt,adapt,adapt,adapt,adapt,adapt,adapt,NOT_RUN,
+docs-rule,workflow,docs/**,Run the local docs checker and do not publish,docs config,Publication always needs human authorization,fixture,fixture,fixture,fixture,fixture,adapt,fixture,fixture,NOT_RUN,
+external-side-effect,safety,repository,Never deploy publish delete remote data or change accounts without explicit task authorization,project policy,Instruction file cannot grant authority,adapt,adapt,adapt,adapt,adapt,adapt,adapt,adapt,NOT_RUN,
+secret-handling,safety,repository,Never store credentials or personal account data in repository rules,security policy,Use secret manager and least privilege,adapt,adapt,adapt,adapt,adapt,adapt,adapt,adapt,NOT_RUN,

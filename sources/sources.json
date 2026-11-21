@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "reviewed_on": "2026-11-21",
+  "sources": [
+    {
+      "title": "OpenAI Codex",
+      "url": "https://raw.githubusercontent.com/openai/codex/main/codex-rs/core/src/agents_md.rs",
+      "type": "upstream_implementation_source",
+      "supports": "Hierarchical repository instruction files discovered by Codex.",
+      "authority": "OpenAI Codex upstream",
+      "version_or_date": "moving upstream; reviewed 2026-11-21",
+      "claim_scope": "Hierarchical repository instruction files discovered by Codex.",
+      "does_not_support": "This source alone does not validate this guide's cross-project recommendation, local result, interoperability, or safety sufficiency."
+    },
+    {
+      "title": "GitHub Copilot",
+      "url": "https://docs.github.com/en/copilot/customizing-copilot/adding-repository-custom-instructions-for-github-copilot",
+      "type": "upstream_repository",
+      "supports": "Repository-wide and path-specific instruction mechanisms documented by GitHub.",
+      "authority": "upstream project maintainers",
+      "version_or_date": "moving upstream; reviewed 2026-11-21",
+      "claim_scope": "Repository-wide and path-specific instruction mechanisms documented by GitHub.",
+      "does_not_support": "This source alone does not validate this guide's cross-project recommendation, local result, interoperability, or safety sufficiency."
+    },
+    {
+      "title": "Claude Code",
+      "url": "https://docs.anthropic.com/en/docs/claude-code/memory",
+      "type": "official_project_documentation",
+      "supports": "Hierarchical memory/instruction files and imports documented by Anthropic.",
+      "authority": "upstream project documentation",
+      "version_or_date": "moving upstream; reviewed 2026-11-21",
+      "claim_scope": "Hierarchical memory/instruction files and imports documented by Anthropic.",
+      "does_not_support": "This source alone does not validate this guide's cross-project recommendation, local result, interoperability, or safety sufficiency."
+    },
+    {
+      "title": "Cursor",
+      "url": "https://docs.cursor.com/en/context/rules",
+      "type": "official_project_documentation",
+      "supports": "Project rules stored in the repository with rule metadata.",
+      "authority": "upstream project documentation",
+      "version_or_date": "moving upstream; reviewed 2026-11-21",
+      "claim_scope": "Project rules stored in the repository with rule metadata.",
+      "does_not_support": "This source alone does not validate this guide's cross-project recommendation, local result, interoperability, or safety sufficiency."
+    },
+    {
+      "title": "Windsurf",
+      "url": "https://docs.windsurf.com/windsurf/cascade/memories",
+      "type": "official_project_documentation",
+      "supports": "Workspace rules and memory behavior documented by Windsurf.",
+      "authority": "upstream project documentation",
+      "version_or_date": "moving upstream; reviewed 2026-11-21",
+      "claim_scope": "Workspace rules and memory behavior documented by Windsurf.",
+      "does_not_support": "This source alone does not validate this guide's cross-project recommendation, local result, interoperability, or safety sufficiency."
+    },
+    {
+      "title": "Aider",
+      "url": "https://aider.chat/docs/usage/conventions.html",
+      "type": "official_project_documentation",
+      "supports": "A configured text file is added to the coding context as conventions.",
+      "authority": "upstream project documentation",
+      "version_or_date": "moving upstream; reviewed 2026-11-21",
+      "claim_scope": "A configured text file is added to the coding context as conventions.",
+      "does_not_support": "This source alone does not validate this guide's cross-project recommendation, local result, interoperability, or safety sufficiency."
+    },
+    {
+      "title": "Continue",
+      "url": "https://docs.continue.dev/customize/rules",
+      "type": "official_project_documentation",
+      "supports": "Rules customize agent/chat behavior in Continue.",
+      "authority": "upstream project documentation",
+      "version_or_date": "moving upstream; reviewed 2026-11-21",
+      "claim_scope": "Rules customize agent/chat behavior in Continue.",
+      "does_not_support": "This source alone does not validate this guide's cross-project recommendation, local result, interoperability, or safety sufficiency."
+    },
+    {
+      "title": "Cline",
+      "url": "https://docs.cline.bot/features/cline-rules",
+      "type": "official_project_documentation",
+      "supports": "Repository and user rules documented for Cline.",
+      "authority": "upstream project documentation",
+      "version_or_date": "moving upstream; reviewed 2026-11-21",
+      "claim_scope": "Repository and user rules documented for Cline.",
+      "does_not_support": "This source alone does not validate this guide's cross-project recommendation, local result, interoperability, or safety sufficiency."
+    }
+  ]
+}
