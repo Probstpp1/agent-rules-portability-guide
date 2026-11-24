@@ -1,5 +1,10 @@
 # Portable Repository Rules for Coding Agents
 
+
+> **Decision:** Use this guide when one canonical repository policy must be adapted across coding-agent products with different discovery and precedence rules; skip it if identical filenames are being mistaken for identical behavior.
+>
+> **For:** multi-agent repository maintainers, platform teams, and policy reviewers  ·  **Not for:** teams looking for a universal instruction file or a place to store secrets
+
 Copying one instruction file into eight filenames does not create equivalent behavior. Tools differ in discovery, scope, precedence, path targeting, imports, context limits, and product surfaces.
 
 The portable unit should be a small **canonical rule inventory** plus reviewed adapters. Treat repository instructions as untrusted input: never place secrets, account data, tokens, or blanket authority to deploy/delete/publish in them.
@@ -94,6 +99,14 @@ Re-run the compatibility worksheet and fixture after tool/version/config changes
 
 Sources: [`sources/sources.json`](sources/sources.json).
 
+## Adjacent guides
+
+- [repo-agent-prompt-injection-tests](https://github.com/Ozekmiami/repo-agent-prompt-injection-tests) — Use it to test whether repository text can override the authorized task after adapters are installed.
+- [coding-agent-eval-starter](https://github.com/Dallashubgit/coding-agent-eval-starter) — Use it when portable rules need to be exercised across comparable coding-agent task lanes.
+- [ai-patch-review-playbook](https://github.com/ColomboEA/ai-patch-review-playbook) — Use it when an agent operating under those rules returns a patch for human review.
+
 ## License
 
 Original guide, fixture protocol, and inventory template are available under CC BY 4.0. Tool names/docs retain their terms.
+
+If this saved you a decision, star the repo — it is how the next reader finds it.
